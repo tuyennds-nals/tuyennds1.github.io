@@ -10,7 +10,7 @@
 
 <body>
     <a-scene
-        mindar-image="imageTargetSrc: ./targets_2.mind; maxTrack: 3"
+        mindar-image="imageTargetSrc: ./targets_4.mind; maxTrack: 5"
         color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
         device-orientation-permission-ui="enabled: false">
         <a-assets>
@@ -27,19 +27,23 @@
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity mindar-image-target="targetIndex: 0">
-            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#robotModel"
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#robotModel"
                 animation-mixer>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 1">
-            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#bearModel"
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#robotModel"
                 animation-mixer>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 2">
-            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#raccoonModel"
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#bearModel"
                 animation-mixer>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 3">
-            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#robotModel"
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#raccoonModel"
+                animation-mixer>
+        </a-entity>
+        <a-entity mindar-image-target="targetIndex: 4">
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.02 0.02 0.02" src="#robotModel"
                 animation-mixer>
         </a-entity>
     </a-scene>
