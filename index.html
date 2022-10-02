@@ -22,12 +22,14 @@
             </a-asset-item>
             <a-asset-item id="robotModel" src="./gltf/glb/wraith.glb">
             </a-asset-item>
+            <a-asset-item id="dragonModel" src="./model_dragon.glb">
+            </a-asset-item>
         </a-assets>
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity mindar-image-target="targetIndex: 0">
-            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.01 0.01 0.01" src="#robotModel"
+            <a-gltf-model rotation="90 0 0 " position="0 -0.25 0" scale="0.09 0.09 0.09" src="#dragonModel"
                 animation-mixer>
         </a-entity>
         <a-entity mindar-image-target="targetIndex: 1">
